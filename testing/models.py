@@ -11,7 +11,7 @@ class Product(models.Model):
 
     class Meta:
         pass
-
+#
 def get_all_product():
     return Product.objects.all()
 ## Get the total number of products, average price, and total stock value for products in a specific category and price range.
